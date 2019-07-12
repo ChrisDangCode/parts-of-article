@@ -1,0 +1,6 @@
+body{padding:0 35%;}
+
+#headline, #byline, #lead, #body {font-family: FreightText,Georgia,serif;}
+
+#headline{font-size: 2rem;}
+#byline{font-size: 1.2rem; font-weight: 900;}
