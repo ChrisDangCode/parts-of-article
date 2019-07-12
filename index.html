@@ -6,18 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Parts of a News article</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <section class="tootip" id="headline">News literacy is up 100%.<span class="tooltiptext">This is the headline.</span></section>
-    <section class="tootip" id="byline">Papier Wrighter<span class="tooltiptext">This is the byline.</span></section>
-    <section class="tootip" id="date">July 12, 2019 - 11:53 AM</section>
-    <section class="tootip" id="lead">Average literate person just learned a bit more about media literacy while online!<span class="tooltiptext">This is the lead (or lede).</span></section>
-    <section class="tootip" id="body">If you are reading this, you may be trying to learn about media literacy. You have come to the right place!
+    <section data-toggle="tootip" title="This is the headline." id="headline">News literacy is up 100%.</section>
+    <section data-toggle="tootip" title="This is the byline." id="byline">Papier Wrighter</section>
+    <section data-toggle="tootip" title="This is the date." id="date">July 12, 2019 - 11:53 AM</section>
+    <section data-toggle="tootip" title="This is the lead (or lede)." id="lead">Average literate person just learned a bit more about media literacy while online!</section>
+    <section data-toggle="tootip" title="This is the byline." id="body">If you are reading this, you may be trying to learn about media literacy. You have come to the right place!
         "It's a simple strat to increasing learning by 100%. Some students have increased their learning by an indefinite amount," said University of Learning Professor Munat Tinous
     It's been found that if you know nothing on a subject, and learn something about it, you know know infinitely more on the subject than you did before.
     <br><br>
-    "Naturally, there is more to learn. But when you find the beauty in learning, you will grow exponentially as a human," said Tinous.<span class="tooltiptext">This is the body.</span>
+    "Naturally, there is more to learn. But when you find the beauty in learning, you will grow exponentially as a human," said Tinous.
 </section>
     <section id="NAME"></section>
 </body>
+
+
+<!-- Enable tool tips -->
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+
+
+
 </html>
