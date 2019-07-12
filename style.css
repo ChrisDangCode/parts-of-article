@@ -1,9 +1,18 @@
-body{padding: 10% 35% 0;}
+body{padding: 10% 30% 0;}
 
 #headline, #byline, #lead, #body {font-family: FreightText,Georgia,serif;}
 
 #headline{font-size: 2rem;}
 #byline{font-size: 1.2rem; font-weight: 900;}
+
+
+#headline:hover{background-color:#ff9c91;}
+#byline:hover{background-color:#fee9b2;}
+#date:hover{background-color:#cba1d2;}
+#lead:hover{background-color: #fdeaab;}
+#content-body:hover{background-color:#d3f6f3;}
+
+
 
 /* Mobile */
 @media only screen and (max-width: 600px) {

@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Parts of a News article</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <section data-toggle="tootip" title="This is the headline." id="headline">News literacy is up 100%.</section>
-    <section data-toggle="tootip" title="This is the byline." id="byline">Papier Wrighter</section>
-    <section data-toggle="tootip" title="This is the date." id="date">July 12, 2019 - 11:53 AM</section>
-    <section data-toggle="tootip" title="This is the lead (or lede)." id="lead">Average literate person just learned a bit more about media literacy while online!</section>
-    <section data-toggle="tootip" title="This is the byline." id="body">If you are reading this, you may be trying to learn about media literacy. You have come to the right place!
-        "It's a simple strat to increasing learning by 100%. Some students have increased their learning by an indefinite amount," said University of Learning Professor Munat Tinous
-    It's been found that if you know nothing on a subject, and learn something about it, you know know infinitely more on the subject than you did before.
-    <br><br>
-    "Naturally, there is more to learn. But when you find the beauty in learning, you will grow exponentially as a human," said Tinous.
-</section>
+    <section id="headline">
+        <p data-toggle="tootip" title="This is the headline.">News literacy is up 100%.</p>
+    </section>
+
+    <section id="byline">
+        <p data-toggle="tootip" title="This is the byline.">Papier Wrighter
+    </section>
+
+    <section id="date">
+        <p data-toggle="tootip" title="This is the date.">July 12, 2019 - 11:53 AM
+    </section>
+
+    <section id="lead">
+        <p data-toggle="tootip" title="This is the lead (or lede).">Average literate person just learned a bit more
+            about media literacy while online!
+    </section>
+
+    <section id="content-body">
+        <p data-toggle="tootip" title="This is the body.">If you are reading this, you may be trying to learn about
+            media literacy. You have come to the right place!
+            "It's a simple strat to increasing learning by 100%. Some students have increased their learning by an
+            indefinite amount," said University of Learning Professor Munat Tinous
+            It's been found that if you know nothing on a subject, and learn something about it, you know know
+            infinitely more on the subject than you did before.</p>
+
+        <p data-toggle="tootip" title="This is the body.">"Naturally, there is more to learn. But when you find the
+            beauty in learning, you will grow exponentially as a human," said Tinous.</p>
+    </section>
+
     <section id="NAME"></section>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 
 <!-- Enable tool tips -->
 <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
     });
-    </script>
+</script>
 
 
 
