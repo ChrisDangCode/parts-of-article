@@ -1,24 +1,36 @@
-body{padding: 10% 30% 0;}
+
+
+article{padding: 1% 30% 0; background-color: #FDFBF9}
 
 p{margin:0 !important;}
 
-#headline, #byline, #lead, #date, #content-body {font-family: FreightText,Georgia,serif; padding: 5px;}
+img{max-width: 100%;}
+
+#headline, #byline, #lead,
+#date, #content-body {font-family: FreightText,Georgia,serif; padding: 5px;}
+
+#cutline{font-family: 'GoodOT', Arial, sans-serif;  padding: 5px;}
 
 #headline{font-size: 2rem;}
 #byline{font-size: 1.2rem; font-weight: 900;}
 
+#header{background-color: #7F736B; padding-bottom: 20px;}
+#nap-logo{ width: 100px; margin: 0% 0% 0% 6%;}
 
-#headline:hover{background-color:#ff9c91;}
-#byline:hover{background-color:#fee9b2;}
-#date:hover{background-color:#cba1d2;}
-#lead:hover{background-color: #fdeaab;}
+
+/* palette: https://www.color-hex.com/color-palette/27376 */
+#headline:hover{background-color:#ffd6d6;}
+#byline:hover{background-color:#faffb0;}
+#cutline:hover{background-color:#c0ffb6;}
+#date:hover{background-color:#d0ddff;}
+#lead:hover{background-color: #e1bfff;}
 #content-body:hover{background-color:#d3f6f3;}
 
 
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    body{
-        padding: 10% 5% 0;
+    article{
+        padding: 1% 5% 0;
     }
   }
