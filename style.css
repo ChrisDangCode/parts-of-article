@@ -1,5 +1,7 @@
 body{padding: 10% 30% 0;}
 
+p{margin:0 !important;}
+
 #headline, #byline, #lead, #date, #content-body {font-family: FreightText,Georgia,serif; padding: 5px;}
 
 #headline{font-size: 2rem;}
