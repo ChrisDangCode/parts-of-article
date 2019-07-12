@@ -1,6 +1,6 @@
 
 
-article{padding: 1% 30% 0; background-color: #FDFBF9}
+article{padding: 1% 30% 0; background-color: #FDFBF9; padding-bottom: 50px;}
 
 p{margin:0 !important;}
 
@@ -16,21 +16,41 @@ img{max-width: 100%;}
 
 #header{background-color: #7F736B; padding-bottom: 20px;}
 #nap-logo{ width: 100px; margin: 0% 0% 0% 6%;}
-
+#article-image{padding: 5px;}
 
 /* palette: https://www.color-hex.com/color-palette/27376 */
 #headline:hover{background-color:#ffd6d6;}
 #byline:hover{background-color:#faffb0;}
+#article-image:hover{background-color: greenyellow;}
 #cutline:hover{background-color:#c0ffb6;}
 #date:hover{background-color:#d0ddff;}
 #lead:hover{background-color: #e1bfff;}
 #content-body:hover{background-color:#d3f6f3;}
 
+#footer{background-color: #A39B95; padding: 1% 5%;}
+
+@media only screen and (min-width: 3000px) {
+    article{
+        font-size: 2em;
+    }
+
+    h1{font-size: 6rem !important;}
+    #byline{font-size: 2.2rem; font-weight: 900;}
+
+    #nap-logo{width: 300px;}
+  }
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1200px) {
+    article{
+        padding: 1% 15% 50px;
+    }
+  }
 
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
     article{
-        padding: 1% 5% 0;
+        padding: 1% 5% 50px;
     }
   }
